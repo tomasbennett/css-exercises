@@ -9,5 +9,5 @@
 
 .avatar.distorted{
   width: var(--width-distorted);
-  height: calc(2 * var(--width-distorted))
+  height: calc(2 * var(--width-distorted));
 }
