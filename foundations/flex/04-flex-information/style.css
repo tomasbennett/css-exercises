@@ -12,6 +12,7 @@ img {
   font-weight: 900;
 
   margin: 0px auto 32px;
+  text-align: center;
 }
 
 .container{
@@ -28,18 +29,8 @@ img {
   justify-content: center;
   align-items: center;
 
-  text-wrap: wrap;
+  text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* do not edit this footer */
 .footer {
