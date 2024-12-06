@@ -35,14 +35,21 @@ body {
   font-style: italic;
 }
 
+.container{
+  justify-self: flex-end;
+
+  display: flex;
+  align-itmes: center;
+  justify-content: flex-end;
+  column-gap: 16px;
+}
+
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-
-  justify-self: flex-end;
 }
 
 a {
