@@ -92,6 +92,10 @@
 
 /* ************************************* Solution start case ************************************* */
 
+ul{
+  list-style-type: none;
+}
+
 .container{
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -118,6 +122,11 @@
   grid-template-rows: repeat(4, 1fr);
   
   gap: 50px;
+}
+
+.sidebar > *{
+  display: grid;
+  place-items: center;
 }
 
 .nav ul{
