@@ -109,17 +109,18 @@ ul{
   display: grid;
   grid-template-columns: 1fr 2fr;
 
-  justify-content: start;
+  
 }
 
-.menu{
-  display: grid;
-  place-items: center;
+.logo{
+  justify-self: start;
 }
 
 .menu ul{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
+  align-items: center;
 }
 
 .sidebar{
