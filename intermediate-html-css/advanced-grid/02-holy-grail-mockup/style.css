@@ -108,6 +108,13 @@ ul{
 
   display: grid;
   grid-template-columns: 1fr 2fr;
+
+  justify-content: start;
+}
+
+.menu{
+  display: grid;
+  place-items: center;
 }
 
 .menu ul{
